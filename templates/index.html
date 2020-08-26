@@ -1,0 +1,6 @@
+<h1>Welcome, {{ request.user.username }}</h1>
+<h3>Your display name : {{ request.user.username }} </h3>
+<h3>You are {{ request.user.age }} years young.</h3>
+<h3>Website {{ request.user.homepage }}</h3>
+<h3>BIO {{ request.user.bio }}</h3>
+<a href="/logout/"><button>Logout</button></a>
